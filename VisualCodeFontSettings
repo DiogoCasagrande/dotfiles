@@ -1,0 +1,69 @@
+ // Controls the font family.
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+
+  // Enables font ligatures
+  "editor.fontLigatures": false,
+
+  // Controls the font size in pixels.
+  "editor.fontSize": 12,
+
+  // Controls the font weight.
+  "editor.fontWeight": "normal",
+
+  // Controls if the editor should automatically format the line after typing
+  "editor.formatOnType": false,
+
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 0,
+
+  // Zoom the font of the editor when using mouse wheel and holding Ctrl
+  "editor.mouseWheelZoom": false,
+
+  // Font size for the suggest widget
+  "editor.suggestFontSize": 0,
+
+  // Overrides editor colors and font style from the currently selected color theme.
+  "editor.tokenColorCustomizations": {},
+
+  // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing) and show up with an italic font style.
+  "workbench.editor.enablePreview": true,
+
+  // Controls font aliasing method in the workbench.
+  // - default: Sub-pixel font smoothing. On most non-retina displays this will give the sharpest text
+  // - antialiased: Smooth the font on the level of the pixel, as opposed to the subpixel. Can make the font appear lighter overall
+  // - none: Disables font smoothing. Text will show with jagged sharp edges
+  // - auto: Applies `default` or `antialiased` automatically based on the DPI of displays.
+  "workbench.fontAliasing": "default",
+
+  // Controls the font family used in the markdown preview.
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'HelveticaNeue-Light', 'Ubuntu', 'Droid Sans', sans-serif",
+
+  // Controls the font size in pixels used in the markdown preview.
+  "markdown.preview.fontSize": 14,
+
+  // Controls the line height used in the markdown preview. This number is relative to the font size.
+  "markdown.preview.lineHeight": 1.6,
+
+  // @font-face rule must define 'src' and 'font-family' properties
+  "css.lint.fontFaceProperties": "warning",
+
+  // @font-face rule must define 'src' and 'font-family' properties
+  "less.lint.fontFaceProperties": "warning",
+
+  // @font-face rule must define 'src' and 'font-family' properties
+  "scss.lint.fontFaceProperties": "warning",
+
+  // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+  "terminal.integrated.fontFamily": "",
+
+  // Controls the font size in pixels of the terminal.
+  "terminal.integrated.fontSize": 12,
+
+  // The font weight to use within the termianl for non-bold text.
+  "terminal.integrated.fontWeight": "normal",
+
+  // The font weight to use within the termianl for bold text.
+  "terminal.integrated.fontWeightBold": "bold",
+
+  // Controls the line height of the terminal, this number is multiplied by the terminal font size to get the actual line-height in pixels.
+  "terminal.integrated.lineHeight": 1
